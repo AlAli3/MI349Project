@@ -152,3 +152,12 @@ nav a.active::after {
   background-color: #004c3f;
   border-radius: 2px;    /* rounded ends for a polished look */
 }
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #004c3f;
+  margin-bottom: 1rem;
+}
