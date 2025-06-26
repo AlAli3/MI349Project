@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0 1rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 2px solid #ddd;
+  background-color: #ffffff;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #004c3f; /* MSU Green */
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #004c3f;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #008066;
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #e5f5f0;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+#hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#hero a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #004c3f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+#hero a:hover {
+  background-color: #006a57;
+}
+
+/* About Section */
+#about {
+  padding: 2rem 0;
+}
+
+#about h3 {
+  font-size: 1.6rem;
+  color: #004c3f;
+  margin-bottom: 0.5rem;
+}
+
+/* Explore Section */
+#explore {
+  padding: 2rem 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+#explore h3 {
+  color: #004c3f;
+  margin-bottom: 1rem;
+}
+
+#explore ul {
+  list-style-type: none;
+}
+
+#explore li {
+  margin-bottom: 0.5rem;
+}
+
+#explore a {
+  text-decoration: none;
+  color: #008066;
+  font-weight: 500;
+}
+
+#explore a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  color: #777;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
