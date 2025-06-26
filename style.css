@@ -132,3 +132,23 @@ footer {
     margin-top: 0.5rem;
   }
 }
+
+nav a {
+  position: relative;
+}
+
+nav a.active {
+  font-weight: 600;      /* optional extra emphasis */
+  color: #004c3f;        /* keeps text on-brand */
+}
+
+nav a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;          /* distance from text */
+  height: 3px;           /* thickness of the bar */
+  background-color: #004c3f;
+  border-radius: 2px;    /* rounded ends for a polished look */
+}
